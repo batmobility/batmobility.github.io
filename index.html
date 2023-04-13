@@ -159,11 +159,13 @@
         </div>
         <br>
         <div class="content has-text-centered">
-          <video autoplay loop muted playsinline src="./resources/anim2-opt.webm" style="width: 60%;"></video>
-          <video autoplay loop muted playsinline src="./resources/anim3-opt.webm" style="width: 80%;"></video>
+          <video autoplay loop muted playsinline src="./resources/anim2-opt.webm" style="width: 100%;"></video>
+          <video autoplay loop muted playsinline src="./resources/anim3-opt.webm" style="width: 100%;"></video>
         </div>
         <div class="content">
-          <p>From the amplitude of the pattern, we can infer the magnitude of the velocity. If we generalize this concept to 2-D, we can find the direction of motion. The drone can then use this motion feedback to stabilize itself.
+            <p>
+            <strong>Top. </strong> The amplitude is correlated with the magnitude of the velocity. 
+            <strong>Bottom. </strong>Using a 2-D antenna array, we can find the direction of motion. 
           </p>
         </div>
       </div>
@@ -172,7 +174,7 @@
     <br><br>
     <h2 class="title is-2" style="text-align: center;">Radio Flow Estimation</h2>
     <div class="content has-text-centered">
-        <img style="width: 80%;" src="./resources/flow_model.jpg">
+        <img style="width: 100%;" src="./resources/flow_model.jpg">
     </div>
     <div class="content has-text-justified">
           <p>The previous simulated toy examples assume a perfectly diffuse surface. However, doppler-angle heatmaps generally appear different under various real world conditions due to specularity, multipath, noise, etc. We collect data on various real world surfaces and train a lightweight CNN to regress velocity from imperfect doppler-angle heatmaps. We also convert these to angular flow values for plug-and-play compatibility with existing flight controllers.
@@ -193,9 +195,6 @@
 
     <br><br>
     <h2 class="title is-2" style="text-align: center;">Position Hold</h2>
-    <div class="content has-text-centered">
-        <img style="width: 80%;" src="./resources/flow_model.jpg">
-    </div>
     <div class="content has-text-justified">
           <p>We compare loitering behavior of a UAV using (a) a commercial optical flow sensor and (b) BatMobility. In the left, we can see that the UAV is unable to hold its position on a featureless surface. In the right, BatMobility uses surface-parallel doppler shift to maintain stability in spite of the lack of visual or geometric ground features.
         </p>
@@ -214,28 +213,21 @@
     </div>
 
     <br><br>
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-2" style="text-align: center;">Velocity Control</h2>
-        <tr>
-          <td>
-            <br>
-              <div class="content has-text-justified">
-                  <p> BatMobility enables feedback-based velocity control in harsh environments (such as in the dark). This enables key action primitives (i.e. move forward, move left, turn right, stop) for vision-free navigation in unstructured environments.
-                  </p>
-              </div>
-              <div class="columns is-centered has-text-centered v-divider">
-                <video autoplay loop muted playsinline src="./resources/batmobility_square1-opt.webm"
-                    style="border: 1px solid #bbb; border-radius: 10px; width: 50%;"></video>
-                &nbsp;
-                <video autoplay loop muted playsinline src="./resources/batmobility_square2-opt.webm"
-                    style="border: 1px solid #bbb; border-radius: 10px; width: 50%;"></video>
-              </div>
-          </td>
-        </tr>
-      </div> 
+    <h2 class="title is-2" style="text-align: center;">Velocity Control</h2>
+    <div class="content has-text-justified">
+        <p> BatMobility enables feedback-based velocity control in harsh environments (such as in the dark). This enables key action primitives (i.e. move forward, move left, turn right, stop) for vision-free navigation in unstructured environments.
+        </p>
     </div>
-
+    <div class="columns is-centered">
+      <div class="column is-half-width">
+            <video autoplay loop muted playsinline src="./resources/batmobility_square1-opt.webm" 
+                style="border: 1px solid #bbb; border-radius: 10px; width: 100%;"></video>
+      </div>
+      <div class="column is-half-width">
+            <video autoplay loop muted playsinline src="./resources/batmobility_square2-opt.webm" 
+                style="border: 1px solid #bbb; border-radius: 10px; width: 100%;"></video>
+       </div>
+    </div>
 
   </div>
 </section>
