@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2GM44LM2Q7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-2GM44LM2Q7');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="description" content="<aBatMobility: Towards Flying Without Seeing for Autonomous Drones">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BatMobility: Towards Flying Without Seeing for Autonomous Drones</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <!-- <link rel="icon" href="./favicon.ico?"> -->
+
+  <meta property="og:site_name" content="BatMobility: Towards Flying Without Seeing for Autonomous Drones" />
+  <meta property="og:type" content="video.other" />
+  <meta property="og:title" content="BatMobility: Towards Flying Without Seeing for Autonomous Drones" />
+  <meta property="og:description" content="Sie, Liu, Vasisht. BatMobility: Towards Flying Without Seeing for Autonomous Drones." />
+  <meta property="og:url" content="https://batmobility.github.io/" />
+  <!-- <meta property="og:video" content="https://www.youtube.com/" /> -->
+  <!-- <meta property="og:video:secure" content="https://www.youtube.com/" /> -->
+
+  <meta property="article:publisher" content="https://sie2.github.io" />
+</head>
+
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">BatMobility: Towards Flying Without Seeing <br> for Autonomous Drones</h1>
+          <div class="is-size-4 publication-authors">
+            <span class="author-block">
+              <a href="https://sie2.github.io/">Emerson Sie</a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://zikunliu6.github.io/">Zikun Liu</a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://deepakv.web.illinois.edu">Deepak Vasisht</a>
+              <br /> University of Illinois Urbana-Champaign
+              <span class="brmod"><strong><a href="https://sigmobile.org/mobicom/2023/index.html">MobiCom 2023</a></strong></span>
+              <br />
+              <div>
+                <img src='resources/artifacts_available_v1_1.png' width=100px>
+                <img src='resources/artifacts_evaluated_functional_v1_1.png' width=100px>
+                <img src='resources/artifacts_evaluated_reusable_v1_1.png' width=100px>
+                <img src='resources/results_reproduced_v1_1.png' width=100px>
+              </div>
+            </span>
+          </div>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2307.11518"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- ACM Digital Library. -->
+              <span class="link-block">
+                <a href="https://dl.acm.org/doi/10.1145/3570361.3592532"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-acmdl"></i>
+                  </span>
+                  <span>ACM DL</span>
+                </a>
+              </span>
+              <!-- Arxiv Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2307.11518"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/ConnectedSystemsLab/batmobility_ae"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://zenodo.org/record/8312500"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                </a>
+              </span>
+              <!-- Slides Link. -->
+              <span class="link-block">
+                <a href="https://sigmobile.org/mobicom/2023/media/presentations/SieBatMobility.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fa fa-list"></i>
+                  </span>
+                  <span>Slides</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <!-- <span class="link-block"> -->
+              <!--   <a href="#method_video" -->
+              <!--      class="external-link button is-normal is-rounded is-dark"> -->
+              <!--     <span class="icon"> -->
+              <!--         <i class="fab fa-youtube"></i> -->
+              <!--     </span> -->
+              <!--     <span>Video</span> -->
+              <!--   </a> -->
+              <!-- </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="hero-body">
+    <div class="columns is-centered">
+      <div class="column is-9">
+        <div class="columns is-centered has-text-centered">
+          <video autoplay muted loop playsinline width="750px" 
+              src="./resources/batmobility_flying-opt.webm"></video>
+        </div>
+        <h2 class="subtitle has-text-centered">
+            <strong>Doppler shift enables autonomous navigation in challenging environments lacking visual or geometric features.</strong>
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-2">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Unmanned aerial vehicles (UAVs) rely on optical sensors such as cameras and lidar for autonomous operation. However, optical sensors fail under bad lighting, are occluded by debris and adverse weather conditions, struggle in featureless environments, and easily miss transparent surfaces and thin obstacles. In this paper, we question the extent to which optical sensors are sufficient or even necessary for full UAV autonomy. Specifically, we ask: can UAVs autonomously fly without seeing? We present BatMobility, a lightweight mmWave radar-only perception system for autonomous UAVs that completely eliminates the need for any optical sensors. BatMobility enables vision-free autonomy through two key functionalities – radio flow estimation (a novel FMCW radar-based alternative for optical flow based on surface-parallel doppler shift) and radar-based collision avoidance. We build BatMobility using inexpensive commodity sensors and deploy it as a real-time system on a small off-the-shelf quadcopter, showing its compatibility with existing flight controllers. Surprisingly, our evaluation shows that BatMobility achieves comparable or better performance than commercial-grade optical sensors across a wide range of scenarios. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Abstract. -->
+
+  <!-- Paper video. -->
+  <!-- <br/><br/> -->
+  <!-- <div id="method_video" class="columns is-centered has-text-centered"> -->
+  <!--   <div class="column is-two-thirds"> -->
+  <!--     <h2 class="title is-2">Project Video</h2> -->
+  <!--     <div class="publication-video"> -->
+  <!--       <iframe src="https://www.youtube.com/" -->
+  <!--               frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+  <!--     </div> -->
+  <!--   </div> -->
+  <!-- </div> -->
+  <!--/ Paper video. -->
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-2" style="text-align: center;">Surface-Parallel Doppler Shift</h2>
+        
+        <div class="content has-text-centered">
+            <!-- <img style="width: 1.5%;" src="./resources/divider.png"> -->
+            <!-- <img style="width: 38%;" src="./resources/spd1.jpg">&nbsp;&nbsp;&nbsp;&nbsp;<video autoplay loop muted playsinline src="./resources/anim1-opt.webm" style="width: 55%;"></video> -->
+            <video autoplay loop muted playsinline src="./resources/spd.mp4" style="width: 55%;"></video>
+          </div>
+          <div class="content has-text-justified">
+              <p><strong>How can we stabilize a drone using only a downward facing radar?</strong> Although obtaining altitude is straightforward, ground-parallel motion is challenging. Our key insight is that at mmWave frequencies, most ground surfaces appear diffuse to radar. This means ground-parallel motion induces unique patterns in the doppler-angle plane. We can make such patterns apparent even on very low resolution antenna arrays by extending the doppler axis.
+            </p>
+        </div>
+        <br>
+        <div class="content has-text-centered">
+          <video autoplay loop muted playsinline src="./resources/anim2-opt.webm" style="width: 100%;"></video>
+          <video autoplay loop muted playsinline src="./resources/anim3-opt.webm" style="width: 100%;"></video>
+        </div>
+        <div class="content">
+            <p>
+            <strong>Top. </strong> The amplitude is correlated with the magnitude of the velocity. 
+            <strong>Bottom. </strong>Using a 2-D antenna array, we can find the direction of motion. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+    <h2 class="title is-2" style="text-align: center;">Radio Flow Estimation</h2>
+    <div class="content has-text-centered">
+        <img style="width: 100%;" src="./resources/flow_model.jpg">
+    </div>
+    <div class="content has-text-justified">
+          <p>The previous simulated toy examples assume a perfectly diffuse surface. However, doppler-angle heatmaps generally appear different under various real world conditions due to specularity, multipath, noise, etc. We collect data on various real world surfaces and train a lightweight CNN to regress velocity from imperfect doppler-angle heatmaps. We also convert these to angular flow values for plug-and-play compatibility with existing flight controllers.
+        </p>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-half-width">
+        <h2 class="title is-4">Rough Surface (Grass)</h2>
+            <video autoplay loop muted playsinline src="./resources/grass1-opt.webm" 
+                style="border: 1px solid #bbb; border-radius: 10px; width: 100%;"></video>
+      </div>
+      <div class="column is-half-width">
+        <h2 class="title is-4">Smooth Surface (Concrete)</h2>
+            <video autoplay loop muted playsinline src="./resources/wall1-opt.webm" 
+                style="border: 1px solid #bbb; border-radius: 10px; width: 100%;"></video>
+       </div>
+    </div>
+
+    <br><br>
+    <h2 class="title is-2" style="text-align: center;">Position Hold</h2>
+    <div class="content has-text-justified">
+          <p>We compare loitering behavior of a UAV using (a) a commercial optical flow sensor and (b) BatMobility. In the left, we can see that the UAV is unable to hold its position in featureless or dark environments. In the right, BatMobility uses surface-parallel doppler shift to maintain stability in spite of the lack of visual or geometric ground features.
+        </p>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-half-width">
+        <h2 class="title is-4">Optical Flow</h2>
+            <video autoplay loop muted playsinline src="./resources/optflow_tless3-opt.webm" 
+                style="border: 1px solid #bbb; border-radius: 10px; width: 100%;"></video>
+      </div>
+      <div class="column is-half-width">
+        <h2 class="title is-4">Radio Flow</h2>
+            <video autoplay loop muted playsinline src="./resources/batmobility_tless2-opt.webm" 
+                style="border: 1px solid #bbb; border-radius: 10px; width: 100%;"></video>
+       </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-half-width">
+        <h2 class="title is-4">Optical Flow</h2>
+            <video autoplay loop muted playsinline src="./resources/optflow_dark2-opt.webm" 
+                style="border: 1px solid #bbb; border-radius: 10px; width: 100%;"></video>
+      </div>
+      <div class="column is-half-width">
+        <h2 class="title is-4">Radio Flow</h2>
+            <video autoplay loop muted playsinline src="./resources/batmobility_dark3-opt.webm" 
+                style="border: 1px solid #bbb; border-radius: 10px; width: 100%;"></video>
+       </div>
+    </div>
+
+
+    <br><br>
+    <h2 class="title is-2" style="text-align: center;">Velocity Control</h2>
+    <div class="content has-text-justified">
+        <p> BatMobility enables feedback-based velocity control in harsh environments (such as in the dark). This enables key action primitives (i.e. move forward, move left, turn right, stop) for vision-free navigation in unstructured environments.
+        </p>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-half-width">
+            <video autoplay loop muted playsinline src="./resources/batmobility_square1-opt.webm" 
+                style="border: 1px solid #bbb; border-radius: 10px; width: 100%;"></video>
+      </div>
+      <div class="column is-half-width">
+            <video autoplay loop muted playsinline src="./resources/batmobility_square2-opt.webm" 
+                style="border: 1px solid #bbb; border-radius: 10px; width: 100%;"></video>
+       </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{sie2023batmobility,
+  author    = {Sie, Emerson and Liu, Zikun and Vasisht, Deepak},
+  title     = {BatMobility: Towards Flying Without Seeing for Autonomous Drones},
+  booktitle = {ACM International Conference on Mobile Computing (MobiCom)},
+  year      = {2023},
+  doi       = {https://doi.org/10.1145/3570361.3592532},
+}</code></pre>
+  </div>
+</section>
+
+<section class="section" id="Acknowledgements">
+  <div class="container">
+    <h2 class="title">Acknowledgements</h2>
+      <div class="is-vcentered interpolation-panel">
+          We thank the reviewers and our anonymous shepherd for their insightful comments and suggestions on improving this paper. This work was supported in part by NSF RINGS Award 2148583. This work was carried out in part in the Intelligent Robotics Laboratory, University of Illinois Urbana-Champaign. We thank John M. Hart for help regarding the flying arena. We thank Shahab Nikkhoo for his guidance and suggestions. We thank Kris Hauser for letting us use his 3D printer. We are grateful to Jayanth Shenoy, Bill Tao, Maleeha Masood, Ishani Janveja, and Om Chabra for their feedback on initial drafts.
+      </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>Page template borrowed from <a href="https://energy-locomotion.github.io/"><span class="dnerf">Energy-Locomotion</span></a> and <a href="https://nerfies.github.io/"><span class="dnerf">Nerfies</span></a>.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
